@@ -37,17 +37,18 @@
 - *n_1 = 624*		(floor(2499/4))
 - *k_2 = 7*		(divisor)
 - *n_2 = 357* 	(floor(2499/7))
-- *k_{common} = 28*	(least common multiple of 4 and 7)
-- *n_{common} = 89*	(floor(2499/28))
+- *k_common = 28*	(least common multiple of 4 and 7)
+- *n_common = 89*	(floor(2499/28))
         	
 We must now calculate: 
 `Sum of #'s div by 4` + `Sum of #'s div by 7` - `Sum of #'s div by 4 and 7`
 
-*= k_1(n_1((n_1+1)/2)) + k_2(n_2((n_2+1)/2)) - k_{common}(n_{common}((n_{common}+1)/2))*
-
+*= k_1(n_1((n_1+1)/2)) + k_2(n_2((n_2+1)/2)) - k_common(n_common((n_common+1)/2))*
     
 = *4(624((624+1)/2)) + 7(357((357+1)/2)) - 28(89((89+1)/2))*
+
 = *780,000 + 447,321 - 112,140*
+
 = *1,115,181*
 
 #### Coded Solutions:
